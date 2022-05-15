@@ -33,7 +33,7 @@ public class Main {
             System.out.println("Would you like to \n\ta) add another contact\n\tb) remove a contact \n\tc) exit");
             String option = scan.nextLine();
 
-            if(option.equals(null) || option.isBlank()) {
+            ifoption.isBlank()) {
                 System.out.println("/nPlease enter 'a'  'b'  'c' ");
             }
 
